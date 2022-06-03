@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\MyTile;
+namespace Techenby\FathomTile;
 
 use Livewire\Component;
 
-class MyTileComponent extends Component
+class FathomTileComponent extends Component
 {
     public $position;
 
@@ -13,13 +13,13 @@ class MyTileComponent extends Component
     {
         $this->position = $position;
     }
-    
-    
+
+
     public function render()
     {
         return view('dashboard-skeleton-tile::tile', [
-            'myData' => MyStore::make()->getData(),
-            'refreshIntervalInSeconds' => config('dashboard.tiles.skeleton.refresh_interval_in_seconds') ?? 60,
+            'myData' => FathomStore::make()->getData(),
+            'refreshIntervalInSeconds' => config('dashboard.tiles.fathom.refresh_interval_in_seconds') ?? 60,
 
         ]);
     }

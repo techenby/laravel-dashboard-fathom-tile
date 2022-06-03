@@ -1,14 +1,14 @@
 <?php
 
-namespace Vendor\MyTile;
+namespace Techenby\FathomTile;
 
 use Illuminate\Console\Command;
 
-class FetchDataFromApiCommand extends Command
+class FetchDataFromFathomCommand extends Command
 {
-    protected $signature = 'dashboard:fetch-data-from-xxx-api';
+    protected $signature = 'dashboard:fetch-data-from-fathom-api';
 
-    protected $description = 'Fetch data for tile';
+    protected $description = 'Fetch fathom data for tile';
 
     public function handle(VeloApi $velo)
     {
