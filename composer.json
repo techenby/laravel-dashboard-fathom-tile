@@ -1,6 +1,6 @@
 {
     "name": "techenby/laravel-dashboard-fathom-tile",
-    "description": ":package_description",
+    "description": "A Fathom Analytics tile for your Laravel Dashboard",
     "keywords": [
         "techenby",
         "laravel-dashboard-fathom-tile"
